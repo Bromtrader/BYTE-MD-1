@@ -19,7 +19,7 @@ global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaNRcHSJP
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://raw.githubusercontent.com/HyHamza/HyHamza/main/Images/logo.jpg";
 global.devs = "923072380380";
 global.sudo = process.env.SUDO || "923072380380";
-global.owner = process.env.OWNER_NUMBER || "923072380380";
+global.owner = process.env.OWNER_NUMBER || "254745477064";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "false";
@@ -32,10 +32,10 @@ global.waPresence = process.env.WAPRESENCE || "available";
 global.readcmds = process.env.READ_COMMAND || "true";
 global.readmessage = process.env.READ_MESSAGE || "false";
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "";
-global.read_status = process.env.AUTO_READ_STATUS || "false";
+global.read_status = process.env.AUTO_READ_STATUS || "true";
 global.save_status = process.env.AUTO_SAVE_STATUS || "false";
 global.save_status_from = process.env.SAVE_STATUS_FROM || "all";
-global.read_status_from = process.env.READ_STATUS_FROM || "all";
+global.read_status_from = process.env.READ_STATUS_FFRtrue"all";
 
 global.api_smd = "https://HyHamza.vercel.app";
 global.scan = "https://byte-session.vercel.app/";
@@ -75,14 +75,14 @@ module.exports = {
   menu: process.env.MENU || "",
 
   //Prefix variable
-  HANDLERS: process.env.PREFIX || ".",
+  HANDLERS: process.env.PREFIX || "#",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
   caption: process.env.CAPTION || "*Powered By TalkDrove*",
   author: process.env.PACK_AUTHER || "TalkDrove",
   packname: process.env.PACK_NAME || "♥️",
-  botname: process.env.BOT_NAME || "BYTE-MD",
-  ownername: process.env.OWNER_NAME || "TalkDrove",
+  botname: process.env.BOT_NAME || "BROM-MD",
+  ownername: process.env.OWNER_NAME || "brom_trader",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
